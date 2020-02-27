@@ -8,3 +8,6 @@
 8. Escribimos en la consola pyinstaller --onefile <nombredelscript>.py
 9. el --onefile es para juntar todo lo de tu proyecto en el .exe sin el solo expaqueta el script
 10. La informacion la extraje de https://parzibyte.me/blog/2018/03/23/empaquetando-python-generar-archivo-exe/
+11. Añadir al .spec la ruta de los archivos que deseamos empaquetar
+12. Para empquetar archivos externos al proyecto necesitaremos pyinstaller --onefile <nombredelarchivo>.spec
+13. La informacion la extraje de https://parzibyte.me/blog/2018/12/27/pyinstaller-assets-imagenes-archivos-ejecutable-python/
